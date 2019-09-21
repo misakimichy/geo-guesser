@@ -55,9 +55,7 @@ const toRadians = function(num){
 const calculateDistance = function(x1, y1, x2, y2){
   let radius = 6371e3; //in meters
   let lat1 = toRadians(x1);
-  let lng1 = toRadians(y1);
   let lat2 = toRadians(x2);
-  let lng2 = toRadians(y2);
   let deltaLat = toRadians((x2 - x1));
   let deltaLng = toRadians((y2 - y1));
 
